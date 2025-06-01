@@ -1,15 +1,24 @@
+# Ignore IDE settings
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Ignore build outputs
+/build/
+.gradle/
+.cxx/
+.externalNativeBuild/
+
+# Ignore local config
 local.properties
+google-services.json
+
+# Ignore auto-generated files
+.DS_Store
+Thumbs.db
+captures/
+out/
+*.log
+
+# Ignore system files (Windows/macOS)
+*.swp
+*.tmp
