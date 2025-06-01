@@ -1,6 +1,6 @@
 # PixelAura
 
-This is the final project for my Mobile Systems and Development class.
+This is the final project for my Mobile Systems and Technologies class.
 
 PixelAura is kind of like a “we have Twitter at home” type of thing. It’s a simple platform mainly for artists who want to share their work or collaborate. It supports multiple users at once and lets people post their own art, like and repost others, and even allow free downloads. There’s a basic notification system, messaging, following, and customizable profiles. It’s not super advanced yet, but it covers all the essentials.
 
