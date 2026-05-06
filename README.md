@@ -1,12 +1,14 @@
 # PixelAura
 
-This is the final project for my Mobile Systems and Technologies class.
+This project was developed as the final requirement for my Mobile Systems and Technologies course.
 
-PixelAura is kind of like a “we have Twitter at home” type of thing. It’s a simple platform mainly for artists who want to share their work or collaborate. It supports multiple users at once and lets people post their own art, like and repost others, and even allow free downloads. There’s a basic notification system, messaging, following, and customizable profiles. It’s not super advanced yet, but it covers all the essentials.
+PixelAura is a lightweight social platform designed primarily for artists to share their work and collaborate with others. The application enables users to create posts, showcase artwork, and engage with the community through likes, reposts, and downloadable content. It also includes core social features such as user following, direct messaging, notifications, and customizable user profiles. While intentionally scoped as a foundational implementation, the platform demonstrates the essential components of a modern social media application.
 
-It uses Firebase Auth for login and signup (with password reset via email), Firestore for database stuff, and Imgur for image uploads. Make sure to use a valid email when registering so you can actually reset your password if needed. Just note it runs on free Firebase limits, so things like read/write operations and signups are capped under that threshold.
+From a technical perspective, the application leverages Firebase services for backend functionality. Firebase Authentication is used to handle secure user registration, login, and password reset via email. Cloud Firestore serves as the primary database for managing user data, posts, and interactions. Image hosting and delivery are handled via Imgur, allowing efficient storage and retrieval of user-uploaded artwork.
 
-**NOTE: It is suggested to use the app while your app's theme is light mode because i didnt have time to fix how it looks when its on dark mode. Basically, please use light mode on your device while using the app to fully enjoy the design and color scheme**
+Due to reliance on free-tier cloud services, the application operates within platform-imposed limits (e.g., read/write operations and authentication quotas). Users are advised to register with a valid email address to ensure full access to account recovery features.
+
+Note: The current UI is optimized for light mode. For the best visual experience, it is recommended to use the application with your device set to light theme, as dark mode support is not fully implemented in this version.
 ## 📦 Download APK
 
 [![Download](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge)](https://github.com/franchescaLei/PixelAura/releases/download/v1.0/PixelAura.apk)
